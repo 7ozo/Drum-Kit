@@ -3,9 +3,10 @@
 }
 
 body {
-  background: tomato;
+  background: #393E46;
   margin-top: 50px;
   text-align: center;
+  color:#EEEEEE;
 }
 
 .container {
@@ -23,7 +24,8 @@ body {
   display: inline-flex;
   flex-direction: column;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #00ADB5;
+  background-color: #393E46;
   width: 110px;
 }
 kbd {
@@ -37,6 +39,6 @@ span {
 .playing {
   transform: scale(1.2);
   border: white;
-  box-shadow: 0 0 10px white;
-  color: white;
+  box-shadow: 0 0 15px white;
+  color: #00ADB5;
 }
