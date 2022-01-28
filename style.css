@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: tomato;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  min-width: 1000px;
+}
+
+.key {
+  transition: all 0.1s;
+}
+.container div {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid black;
+  width: 110px;
+}
+kbd {
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+span {
+  font: small-caps bold 20px/1 sans-serif;
+}
+
+.playing {
+  transform: scale(1.2);
+  border: white;
+  box-shadow: 0 0 10px white;
+  color: white;
+}
