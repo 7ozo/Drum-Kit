@@ -3,10 +3,10 @@
 }
 
 body {
-  background: #393E46;
+  background: #393e46;
   margin-top: 50px;
   text-align: center;
-  color:#EEEEEE;
+  color: #eeeeee;
 }
 
 .container {
@@ -24,8 +24,8 @@ body {
   display: inline-flex;
   flex-direction: column;
   text-align: center;
-  border: 2px solid #00ADB5;
-  background-color: #393E46;
+  border: 2px solid #00adb5;
+  background-color: #393e46;
   width: 110px;
 }
 kbd {
@@ -40,15 +40,15 @@ span {
   transform: scale(1.2);
   border: white;
   box-shadow: 0 0 15px white;
-  color: #00ADB5;
+  color: #00adb5;
 }
 
-button{
-  background-color: #393E46;
-  border: 2px solid #00ADB5;
+button {
+  background-color: #393e46;
+  border: 2px solid #00adb5;
   color: white;
   padding: 15px 32px;
-  margin:20px;
+  margin: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -59,11 +59,10 @@ button{
   width: 150px;
 }
 
-
-.active{
-  background-color: #00ADB5;
+.active {
+  background-color: #00adb5;
 }
 
-#play{
+#play {
   cursor: not-allowed;
 }
